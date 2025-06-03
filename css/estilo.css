@@ -31,6 +31,7 @@ body {
 
 .sobreEmpresa{
     margin: 2.5rem;
+    padding: 40px;
 }
 
 .apresentacao{
@@ -46,5 +47,32 @@ body {
     color: rgb(15, 15, 15);
     padding-left: 1rem;
     padding-right: 1rem;
+    flex: 1;
+}
+
+.sobreoLogo {
+  padding: 40px;
+  margin: 12rem 2rem 2rem 2rem;
+}
+
+.conteudo-horizontal {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.logoApresentacao img {
+  padding-left: 2.5rem;
+  max-width: 20rem;
+  height: auto;
+}
+
+.footer {
+  background-color: #e0f7fa;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #004d61;
 }
 
