@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: #e0f7fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  height: 7rem;
+  width: auto;
+}
+
+.nav-tags a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #0077aa;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-tags a:hover {
+  color: #004466;
+}
