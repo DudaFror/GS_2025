@@ -73,8 +73,18 @@ body {
   flex: 1;
 }
 
+.imagemProjeto {
+  padding: 2rem;
+  width: 40rem;
+}
+
+.imagemTecnologias {
+  display: flex;
+  justify-content: center;
+}
+
 .footer {
-  position: fixed;
+  position:static;
   bottom: 0;
   left: 0;
   width: 100%;
