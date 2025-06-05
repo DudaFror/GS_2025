@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto Enchentes</title>
+  <link rel="stylesheet" href="../css/webProject.css">
+</head>
+<body>
+  <header>
+    <h1>Projeto Contra Enchentes</h1>
+  </header>
+
+  <!-- Slide Show -->
+  <section class="slideshow">
+    <img src="../img/imagemBeneficios.jpeg" class="slide active">
+    <img src="../img/imagemProblema.jpeg" class="slide">
+    <img src="../img/projetoEdgeGS.png" class="slide">
+    <div class="controls">
+      <button onclick="prevSlide()">&#10094;</button>
+      <button onclick="nextSlide()">&#10095;</button>
+    </div>
+  </section>
+
+  <!-- Formulário com validação -->
+  <section class="formulario">
+    <h2>Cadastre-se</h2>
+    <form id="cadastroForm">
+      <input type="text" name="nome" placeholder="Nome" required>
+      <input type="email" name="email" placeholder="E-mail" required>
+      <textarea name="mensagem" placeholder="Mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Quiz -->
+  <section class="quiz">
+    <h2>Quiz sobre Enchentes</h2>
+    <div id="quiz-container"></div>
+    <button onclick="verificarRespostas()">Ver Resultado</button>
+    <p id="resultado"></p>
+  </section>
+
+  <!-- Troca de fundo -->
+  <section class="background-switcher">
+    <h2>Modifique o fundo</h2>
+    <div>
+      <button onclick="mudarFundo('#cceeff')">Azul Claro</button>
+      <button onclick="mudarFundo('#e6ffe6')">Verde Claro</button>
+      <button onclick="mudarFundo('#fff0f0')">Rosa Claro</button>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+<script src="../js/webProject.js"></script>
+</html>
